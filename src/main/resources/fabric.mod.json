@@ -1,0 +1,36 @@
+{
+  "schemaVersion": 1,
+  "id": "industrio",
+  "version": "1.2.3",
+
+  "name": "Industrio",
+  "description": "A Fabric tech mod",
+  "authors": [
+    "mounderfod - Developer"
+  ],
+  "contact": {
+  },
+
+  "license": "MIT",
+  "icon": "assets/industrio/icon.png",
+
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "mounderfod.industrio.IndustrioMain"
+    ],
+    "client": [
+      "mounderfod.industrio.client.IndustrioClient"
+    ]
+  },
+  "mixins": [
+  ],
+
+  "depends": {
+    "fabricloader": ">=0.7.4",
+    "fabric": "*",
+    "minecraft": "1.16.x"
+  },
+  "suggests": {
+  }
+}
